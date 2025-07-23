@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import altair as alt
 
-API_URL = "https://statssay-backend.onrender.com/"
+API_URL = "https://statssay-backend.onrender.com/top-players"
 
 
 st.set_page_config(page_title="VCT Top Players", layout="wide")

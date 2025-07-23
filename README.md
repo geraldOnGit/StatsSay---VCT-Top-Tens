@@ -1,5 +1,5 @@
 StatsSay - VCT Top Tens presents to you the Top 10 performers of each of the International LAN events which took place in VCT.
-For example: Valrant Champions 2022, VCT Lock-In Sao Paolo, etc.
+For example: Valorant Champions 2022, VCT Lock-In Sao Paolo, etc.
 Not just the names, StatsSay gives you the statistics of all the Top 10 players and uses these metrics to rank them.
 Weightage of these metrics is the secret sauce, one of which is including players who have played a minimum of 180 rounds in the particular event.
 Just put the year, select the event and you have the list.

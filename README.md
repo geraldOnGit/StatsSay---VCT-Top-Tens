@@ -10,6 +10,7 @@ Just put the year, select the event and you have the list.
 Scroll further and you can compare players on the basis of particular statistics with the help of a bar graph.
 For example: Headshot %, Clutch Success Rate, etc.
 Check it out and see where your favourite player stands in the list.
+https://statssay---vct-top-tens-5byl3j5kxrdvq5beosthzx.streamlit.app/
 
 
 Dataset is taken from Kaggle and includes data from all the international LAN events from 2021 through present time (July 2025), except from VCT Masters Shanghai 2024.

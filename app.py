@@ -3,7 +3,8 @@ import requests
 import pandas as pd
 import altair as alt
 
-API_URL = "http://localhost:8000/top-players"
+API_URL = "https://vct-fastapi-backend.onrender.com/top-players"
+
 
 st.set_page_config(page_title="VCT Top Players", layout="wide")
 st.title("🏆 VCT Top 10 Players by Tournament")

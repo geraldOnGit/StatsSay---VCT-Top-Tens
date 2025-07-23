@@ -64,14 +64,14 @@ if metric not in df.columns:
 else:
     chart_df = df[["Player", metric]].sort_values(metric, ascending=False)
 
-# Escape colon in metric name if needed
-escaped_metric = metric.replace(":", "\\:")
-
-chart = alt.Chart(chart_df).mark_bar().encode(
-    x=alt.X(f"{escaped_metric}:Q", title=metric),
-    y=alt.Y("Player", sort='-x'),
-    color=alt.value("#4B8BBE")
-).properties(
+    # Escape colon in metric name if needed
+    escaped_metric = metric.replace(":", "\\:")
+    
+    chart = alt.Chart(chart_df).mark_bar().encode(
+        x=alt.X(f"{escaped_metric}:Q", title=metric),
+        y=alt.Y("Player", sort='-x'),
+        color=alt.value("#4B8BBE")
+    ).properties(
         width=700,
         height=400,
         title=f"Top 10 Players by {metric}"
